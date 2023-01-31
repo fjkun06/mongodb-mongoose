@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
   "author": "fjkun06",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "4.13"
+    "@types/mongodb": "^4.0.7",
+    "mongodb": "4.13",
+    "typescript": "^4.9.5"
   }
 }

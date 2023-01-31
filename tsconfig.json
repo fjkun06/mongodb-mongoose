@@ -4,17 +4,17 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["es5", "dom"],
-    "module": "commonjs",
+    "module": "ES6",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "../wwwroot/app/",
+    "outDir": "./buildTS/",
     "removeComments": false,
     "sourceMap": true,
-    "target": "es6",
+    "target": "ES5",
     "strict": true,
     "forceConsistentCasingInFileNames": true
   },
   "exclude": ["../wwwroot/app", "node_modules/*"],
-  "include": ["./model.ts"]
+  // "include": ["./model.ts"]
 }
